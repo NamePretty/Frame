@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Frame</string>
+    <string name="title_home">首页</string>
+    <string name="title_mine">我的</string>
+
+
+    <string name="no_more_data">暂时还没有数据~</string>
+    <string name="data_loading">加载中...</string>
+    <string name="data_load_error">加载失败,请重试~</string>
+    <string name="reload_content">重新加载</string>
+    <string name="exit_system">再按一次退出</string>
+
+    <string name="logout">退出登录</string>
+    <string name="login_ok">登陆成功</string>
+    <string name="login_err">登陆失败</string>
+    <string name="logout_ok">退出成功</string>
+
+    <string name="please_enter_username">请输入用户名</string>
+    <string name="please_enter_password">请输入密码</string>
+    <string name="please_reenter_password">请再次输入密码</string>
+    <string name="register">注  册</string>
+    <string name="no_account_register">还没账号?点此注册</string>
+    <string name="login">登  录</string>
+    <string name="username_incorrect">用户名或密码长度必须大于6位</string>
+
+    <string name="click_head_login">点击头像登录</string>
+    <string name="about">关于我们</string>
+</resources>
