@@ -62,12 +62,12 @@ public class ApiStore {
                     public Response intercept(@NonNull Chain chain) throws IOException {
                         Request original = chain.request();
                         Request.Builder requestBuilder = original.newBuilder();
+                        requestBuilder.addHeader("access_token","access_token");
                         Request request = requestBuilder.build();
                         return chain.proceed(request);
                     }
                 })
                 .addInterceptor(new HttpLoggingInterceptor())
-
                 .cookieJar(new CookiesManager());
 
         SSLSocketFactory sslSocketFactory = getSSLSocketFactory(new Buffer().writeUtf8(ConstantUtil.SSL_KEY).inputStream(),
